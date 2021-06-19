@@ -2066,7 +2066,7 @@ void MainWindow::clickFavouriteTool()
         }
         mLastLogLabel->setText(toolPath);
         PROCESS_INFORMATION procinfo;
-        STARTUPINFO startupinfo;
+        STARTUPINFOW startupinfo;
         memset(&procinfo, 0, sizeof(PROCESS_INFORMATION));
         memset(&startupinfo, 0, sizeof(startupinfo));
         startupinfo.cb = sizeof(startupinfo);
