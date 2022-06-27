@@ -6,7 +6,7 @@
 	url = https://github.com/x64dbg/x64dbg/btparser
 [submodule "deps"]
 	path = deps
-	url = https://github.com/x64dbg/x64dbg/deps
+	url = https://github.com/x64dbg/deps
 	shallow = true
 [submodule "src/zydis_wrapper/zydis"]
 	path = src/zydis_wrapper/zydis
