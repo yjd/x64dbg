@@ -11,10 +11,6 @@ install:
     set QTCREATORPATH=C:\Qt\Tools\QtCreator\bin
 build_script:
 - cmd: >-
-#   build.bat x32
-
-#   if not %ERRORLEVEL%==0 exit
-
     build.bat x64
 
     if not %ERRORLEVEL%==0 exit
