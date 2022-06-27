@@ -1199,6 +1199,7 @@ typedef enum
     GUI_GET_CURRENT_GRAPH,          // param1=BridgeCFGraphList*,   param2=unused
     GUI_SHOW_REF,                   // param1=unused,               param2=unused
     GUI_SELECT_IN_SYMBOLS_TAB,      // param1=duint addr,           param2=unused
+    GUI_SET_FAVOURITE_COMMAND_SHORTCUT,// param1=const char* name      param2=const char* shortcut
 } GUIMSG;
 
 //GUI Typedefs
