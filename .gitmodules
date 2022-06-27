@@ -1,13 +1,13 @@
 [submodule "src/gui/Translations"]
 	path = src/gui/Translations
-	url = ../Translations.git
+	url = https://github.com/x64dbg/x64dbg/Translations.git
 [submodule "src/dbg/btparser"]
 	path = src/dbg/btparser
-	url = ../btparser
+	url = https://github.com/x64dbg/x64dbg/btparser
 [submodule "deps"]
 	path = deps
-	url = ../deps
+	url = https://github.com/x64dbg/x64dbg/deps
 	shallow = true
 [submodule "src/zydis_wrapper/zydis"]
 	path = src/zydis_wrapper/zydis
-	url = ../zydis.git
+	url = https://github.com/x64dbg/x64dbg/zydis.git
