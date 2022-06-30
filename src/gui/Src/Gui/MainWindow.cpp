@@ -2174,7 +2174,7 @@ void MainWindow::addFavouriteItem(int type, const QString & name, const QString 
     {
         char buffer[MAX_SETTING_SIZE];
         unsigned int i;
-        bool check;
+        bool check = true;
         for(i = 1; BridgeSettingGet("Favourite", (QString("Tool") + QString::number(i)).toUtf8().constData(), buffer); i++)
         {
             if(buffer == name)
@@ -2199,7 +2199,7 @@ void MainWindow::addFavouriteItem(int type, const QString & name, const QString 
     {
         char buffer[MAX_SETTING_SIZE];
         unsigned int i;
-        bool check;
+        bool check = true;
         for(i = 1; BridgeSettingGet("Favourite", (QString("Command") + QString::number(i)).toUtf8().constData(), buffer); i++)
         {
             if(buffer == name)
